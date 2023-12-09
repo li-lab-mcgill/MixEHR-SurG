@@ -1,0 +1,2 @@
+index,path,word_column
+icd,./data/simulate_df_g.txt,ICD9
