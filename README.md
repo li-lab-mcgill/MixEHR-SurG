@@ -5,7 +5,7 @@ MixEHR-SurG is a tool designed to analyze Electronic Health Records (EHR) using 
 The General description of MixEHR-SurG is shown:
 
 
-<img src="https://github.com/li-lab-mcgill/MixEHR-SurG/model_gen.pdf">
+<img src="https://github.com/li-lab-mcgill/MixEHR-SurG/MixEHR-SurG-Fig.png">
 
 
 
