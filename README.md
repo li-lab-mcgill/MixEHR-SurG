@@ -53,7 +53,7 @@ The first argument should be train. Th topics number, data path and epoches coul
     run(parser.parse_args(['train','./store/', './result/']))
     
 
-## STEP 3: Label Prediction
+## STEP 3: Prediction
 
 With the saved models stored in training stage, you can used these models to obtain new patient's topic proportion and further more to predict hazard risk (only for MixEHR-SurG and MixEHR-Surv) in "MixEHR-SurG/code/main.py" by the following code
 The number of latent topics should be same with the number of saved model (training stage). 
