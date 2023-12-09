@@ -2,10 +2,10 @@
 
 MixEHR-SurG is a tool designed to analyze Electronic Health Records (EHR) using topic modeling techniques combined with survival analysis. Specifically, MixEHR-SurG integrates the Cox proportional hazards model to predict patient mortality while enhancing topic interpretability. It achieves this by guiding topic inference based on patient-specific PheCodes, resulting in phenotype topics closely associated with mortality risks. The tool has shown effectiveness in identifying high-risk phenotype topics related to severe cardiac conditions and critical neurological injuries, offering valuable insights for epidemiological studies and healthcare research. MixEHR-SurG consists of four main steps. The training process is highlighted in green, and the prediction process is depicted in purple. In Step 1, we prepossess and aggregate raw EHR data for each patient $j$.  Step 2 involves determining a $K$-dimensional phenotype topic prior, $\boldsymbol{\uppi}_j = (\pi_{j1}, \ldots, \pi_{jK})$, for each patient. Step 3 infers phenotype topic distribution $\boldsymbol{\upphi}_k^{(m)} \in \mathbb{R}^{V^{(m)}}$ for EHR type $m$ in topic $k$ (i.e., the model parameters of \model). This requires inferring the latent topic assignment $z_{ji}\in\{1,\ldots,K\}$ for each EHR token $i$ in patient $j$. In Step 4, the trained model is applied to predict personalized survival function for new patient. 
 
-The proababilistic graphical model of MixEHR-S is shown:
+The General description of MixEHR-SurG is shown:
 
 
-<img src="https://github.com/li-lab-mcgill/MixEHR-SurG#:~:text=1%20minute%20ago-,Model_gen.pdf,-Add%20files%20via">
+<img src="https://github.com/li-lab-mcgill/MixEHR-SurG/model_gen.pdf">
 
 
 
