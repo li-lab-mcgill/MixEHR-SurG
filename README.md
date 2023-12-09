@@ -62,7 +62,7 @@ The test set should be used in label prediction task. The execution code is:
     run(parser.parse_args(['predict','./store/', './result/']))
     
 
-## STEP 5: Prepare Your Own Dataset
+## STEP 4: Prepare Your Own Dataset
 
 The required dataset may not be EHR ICD data. Any dataset includes words and diverse data types could be considered. 
 For example, ACT code and drug code in EHR data can only be organized into trainable dataset. You 
