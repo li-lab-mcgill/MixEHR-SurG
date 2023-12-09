@@ -69,8 +69,9 @@ For example, ACT code and drug code in EHR data can only be organized into train
 
 Your prepared data should have three files: metadata, text data and survival data.
 - metadata.txt: the document specify the different type of text data.
+
                             Headers:
-                            index,path,word_column
+                            index,path,word_colum 
 
 - data.txt: the document (patient) data with ID, word (ICD code), data type (specialist), frequency.
 
